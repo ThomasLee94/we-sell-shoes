@@ -96,3 +96,245 @@
   .call-to-action-btn:hover{
       box-shadow: 0 2px 1px rgba(0,0,0,0.3);
   }
+
+  /* Clients */
+  .clients{
+      height: 10rem;
+      width: 100%;
+      background: #ecf0f1;
+  }
+
+  .client-images{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+      height: 100%;
+  }
+
+  .clients-header{
+      margin: 0;
+      padding-top: 1rem;
+      text-align: center;
+      font-size: 1.4rem;
+      font-family: roboto;
+      font-weight: 400;
+  }
+
+  .client-images img {
+      transition: all 200ms;
+  }
+
+  .client-images img:hover{
+      transform: scale(1.2);
+  }
+
+  /* Subscribe */
+
+  .subscribe{
+      height: 50vh;
+      width: 100%;
+      background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('https://images.pexels.com/photos/637076/pexels-photo-637076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+  }
+
+  .subscribe h1{
+      margin: 0;
+      font-size: 1.5rem;
+      font-family: roboto;
+      font-weight: 200;
+  }
+
+  .subscribe h2{
+      margin: 0;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      font-family: roboto;
+      font-weight: 200;
+  }
+
+  .email-input{
+      border-radius: 4px;
+      border: solid 1px gray;
+      font-size: 2rem;
+      padding: 0.3rem;
+      padding-left: 1rem;
+      transition: all 200ms;
+  }
+
+  .email-sub{
+      margin-left: 1rem;
+      font-size: 2rem;
+      padding-top: 0.3rem;
+      padding-bottom: 0.3rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      border: none;
+      border-radius: 4px;
+      color: white;
+      background: #e74c3c;
+      transition: all 200ms;
+      cursor: pointer;
+  }
+
+  .email-input:hover{
+      transform: scale(1.05);
+  }
+
+  .email-sub:hover{
+      transform: scale(1.05);
+  }
+
+  /* Gallery */
+
+  .gallery-sec{
+      padding: 0.3rem;
+      margin-right: 0.3rem;
+      height: 130vh;
+      background: ecf0f1;
+      height: 130vh;
+      width: 100%;
+      padding: 3px;
+      padding-top: 10px;
+      padding-bottom: 10px; 
+  }
+
+  .gallery{
+      height: 100%;
+      width: 90%;
+      overflow-x: hidden;
+
+      display: flex;
+      flex-wrap: wrap;
+
+      perspective: 800px;
+  }
+
+  .panel {
+    /* needed for the flex layout*/
+    margin-left: 5px;
+    margin-right: 5px;
+    flex: 1 1 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    box-shadow: 1px 2px 6px rgba(0,0,0,.3);
+    transition: all 300ms;
+    transform-style: preserve-3d;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .panel:hover{
+    transform: scale(1.01);
+    box-shadow: 1px 4px 9px rgba(0,0,0,.5);
+    z-index: 3;
+  }
+  
+  
+  .tall-panel {
+    grid-row-end: span 2;
+  }
+  
+  .g-header
+   {
+    margin-left: 5px;
+    margin-right: 5px;
+    flex: 0 1 100%;
+    grid-column: 1 / -1;
+  }
+  
+  .gallery > * {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    margin-bottom: 10px;
+  }
+  
+  .g-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('https://images.pexels.com/photos/267320/pexels-photo-267320.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  .a {
+    background: url('https://images.pexels.com/photos/266840/pexels-photo-266840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+  }
+  
+  .b {
+    background: url('https://images.pexels.com/photos/812875/pexels-photo-812875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+  }
+  
+  .c {
+    background: url('https://images.pexels.com/photos/421160/pexels-photo-421160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: -70px;
+  }
+  
+  .d {
+    background: url('https://images.pexels.com/photos/112285/pexels-photo-112285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+  }
+  
+  .e {
+    background: url('https://images.pexels.com/photos/293405/pexels-photo-293405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;  
+  }
+  
+  .f {
+    background: url('https://images.pexels.com/photos/1994/red-vintage-shoes-sport.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: -40px;
+  }
+  
+  
+  .g {
+    background: url('https://images.pexels.com/photos/373964/pexels-photo-373964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: -100px;
+    background-size: cover;
+  }
+  
+  .h {
+    background: url('https://images.pexels.com/photos/247203/pexels-photo-247203.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;  
+  }
+  
+  .i {
+    background: url('https://images.pexels.com/photos/40383/shoes-rock-climbing-hiking-walking-40383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;  
+  }
+  
+  .j {
+    background: url('https://images.pexels.com/photos/116150/pexels-photo-116150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: 0px -60px;
+  }
+  
+  .panel div {
+    background: rgba(0,0,0,.3);
+    padding: 5px;
+    color: white;
+  }
+  
+  /* We need to set the margin used on flex items to 0 as we have gaps in grid.  */
+  
+  @supports (display: grid) {
+    .gallery > * {
+      margin: 0;
+    }
+  }
